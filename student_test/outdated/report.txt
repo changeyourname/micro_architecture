@@ -1,0 +1,365 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 33.35      0.01     0.01                             test::Student::mutable_phone[abi:cxx11]()
+ 33.35      0.02     0.01                             test::Student::SerializeWithCachedSizesToArray(unsigned char*) const
+ 33.35      0.03     0.01                             test::Student::ByteSize() const
+  0.00      0.03     0.00  4000000     0.00     0.00  google::protobuf::internal::WireFormatLite::MakeTag(int, google::protobuf::internal::WireFormatLite::WireType)
+  0.00      0.03     0.00  4000000     0.00     0.00  test::Student::name[abi:cxx11]() const
+  0.00      0.03     0.00  4000000     0.00     0.00  test::Student::phone[abi:cxx11]() const
+  0.00      0.03     0.00  3000000     0.00     0.00  google::protobuf::io::CodedOutputStream::VarintSize32(unsigned int)
+  0.00      0.03     0.00  2000000     0.00     0.00  google::protobuf::internal::WireFormat::VerifyUTF8StringNamedField(char const*, int, google::protobuf::internal::WireFormat::Operation, char const*)
+  0.00      0.03     0.00  2000000     0.00     0.00  google::protobuf::internal::WireFormatLite::StringSize(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      0.03     0.00  2000000     0.00     0.00  test::Student::has_advisor() const
+  0.00      0.03     0.00  2000000     0.00     0.00  test::Student::unknown_fields() const
+  0.00      0.03     0.00  2000000     0.00     0.00  test::Student::id() const
+  0.00      0.03     0.00  2000000     0.00     0.00  test::Student::has_id() const
+  0.00      0.03     0.00  2000000     0.00     0.00  test::Student::has_gpa() const
+  0.00      0.03     0.00  2000000     0.00     0.00  test::Student::has_name() const
+  0.00      0.03     0.00  2000000     0.00     0.00  test::Student::has_phone() const
+  0.00      0.03     0.00  2000000     0.00     0.00  google::protobuf::UnknownFieldSet::empty() const
+  0.00      0.03     0.00  1000000     0.00     0.00  google::protobuf::io::CodedOutputStream::WriteVarint32ToArray(unsigned int, unsigned char*)
+  0.00      0.03     0.00  1000000     0.00     0.00  google::protobuf::io::CodedOutputStream::VarintSize32SignExtended(int)
+  0.00      0.03     0.00  1000000     0.00     0.00  google::protobuf::io::CodedOutputStream::WriteLittleEndian32ToArray(unsigned int, unsigned char*)
+  0.00      0.03     0.00  1000000     0.00     0.00  google::protobuf::io::CodedOutputStream::WriteVarint32SignExtendedToArray(int, unsigned char*)
+  0.00      0.03     0.00  1000000     0.00     0.00  google::protobuf::internal::WireFormatLite::EncodeFloat(float)
+  0.00      0.03     0.00  1000000     0.00     0.00  google::protobuf::internal::WireFormatLite::Int32Size(int)
+  0.00      0.03     0.00  1000000     0.00     0.00  test::Student::gpa() const
+  0.00      0.03     0.00    35008     0.00     0.00  google::protobuf::internal::GetEmptyStringAlreadyInited[abi:cxx11]()
+  0.00      0.03     0.00     5002     0.00     0.00  google::protobuf::MessageLite::MessageLite()
+  0.00      0.03     0.00     5002     0.00     0.00  google::protobuf::GoogleOnceInit(long*, void (*)())
+  0.00      0.03     0.00     5002     0.00     0.00  google::protobuf::Message::Message()
+  0.00      0.03     0.00     5002     0.00     0.00  google::protobuf::internal::Acquire_Load(long const volatile*)
+  0.00      0.03     0.00     5002     0.00     0.00  google::protobuf::internal::GetEmptyString[abi:cxx11]()
+  0.00      0.03     0.00     5001     0.00     0.00  test::Student::SharedCtor()
+  0.00      0.03     0.00     5001     0.00     0.00  test::Student::SharedDtor()
+  0.00      0.03     0.00     5001     0.00     0.00  test::Student::Student()
+  0.00      0.03     0.00     5001     0.00     0.00  test::Student::~Student()
+  0.00      0.03     0.00     5000     0.00     0.00  PromptForStudent(test::Student*, std::basic_fstream<char, std::char_traits<char> >&)
+  0.00      0.03     0.00     5000     0.00     0.00  test::Student::set_has_id()
+  0.00      0.03     0.00     5000     0.00     0.00  test::Student::set_has_gpa()
+  0.00      0.03     0.00     5000     0.00     0.00  test::Student::set_has_name()
+  0.00      0.03     0.00     5000     0.00     0.00  test::Student::set_has_phone()
+  0.00      0.03     0.00     5000     0.00     0.00  test::Student::set_id(int)
+  0.00      0.03     0.00     5000     0.00     0.00  test::Student::set_gpa(float)
+  0.00      0.03     0.00     5000     0.00     0.00  test::Student::set_name(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      0.03     0.00     5000     0.00     0.00  test::Student::set_phone(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      0.03     0.00        2     0.00     0.00  std::operator|(std::_Ios_Openmode, std::_Ios_Openmode)
+  0.00      0.03     0.00        1     0.00     0.00  _GLOBAL__sub_I__Z16PromptForStudentPN4test7StudentERSt13basic_fstreamIcSt11char_traitsIcEE
+  0.00      0.03     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN4test35protobuf_AssignDesc_student_2eprotoEv
+  0.00      0.03     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.03     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.03     0.00        1     0.00     0.00  test::Student_Advisor::SharedCtor()
+  0.00      0.03     0.00        1     0.00     0.00  test::Student_Advisor::SharedDtor()
+  0.00      0.03     0.00        1     0.00     0.00  test::Student_Advisor::default_instance()
+  0.00      0.03     0.00        1     0.00     0.00  test::Student_Advisor::InitAsDefaultInstance()
+  0.00      0.03     0.00        1     0.00     0.00  test::Student_Advisor::Student_Advisor()
+  0.00      0.03     0.00        1     0.00     0.00  test::Student_Advisor::~Student_Advisor()
+  0.00      0.03     0.00        1     0.00     0.00  test::Student_Advisor::~Student_Advisor()
+  0.00      0.03     0.00        1     0.00     0.00  test::protobuf_AddDesc_student_2eproto()
+  0.00      0.03     0.00        1     0.00     0.00  test::StaticDescriptorInitializer_student_2eproto::StaticDescriptorInitializer_student_2eproto()
+  0.00      0.03     0.00        1     0.00     0.00  test::Student::InitAsDefaultInstance()
+  0.00      0.03     0.00        1     0.00     0.00  test::Student::~Student()
+  0.00      0.03     0.00        1     0.00     0.00  _call_coz_get_counter
+
+			Call graph
+
+
+granularity: each sample hit covers 2 byte(s) for 33.32% of 0.03 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]     33.3    0.01    0.00                 test::Student::mutable_phone[abi:cxx11]() [1]
+-----------------------------------------------
+                                                 <spontaneous>
+[2]     33.3    0.01    0.00                 test::Student::SerializeWithCachedSizesToArray(unsigned char*) const [2]
+                0.00    0.00 4000000/4000000     google::protobuf::internal::WireFormatLite::MakeTag(int, google::protobuf::internal::WireFormatLite::WireType) [11]
+                0.00    0.00 3000000/4000000     test::Student::name[abi:cxx11]() const [12]
+                0.00    0.00 3000000/4000000     test::Student::phone[abi:cxx11]() const [13]
+                0.00    0.00 2000000/2000000     google::protobuf::internal::WireFormat::VerifyUTF8StringNamedField(char const*, int, google::protobuf::internal::WireFormat::Operation, char const*) [15]
+                0.00    0.00 1000000/2000000     test::Student::has_name() const [22]
+                0.00    0.00 1000000/2000000     test::Student::has_id() const [20]
+                0.00    0.00 1000000/2000000     test::Student::id() const [19]
+                0.00    0.00 1000000/1000000     google::protobuf::io::CodedOutputStream::WriteVarint32SignExtendedToArray(int, unsigned char*) [28]
+                0.00    0.00 1000000/2000000     test::Student::has_phone() const [23]
+                0.00    0.00 1000000/2000000     test::Student::has_gpa() const [21]
+                0.00    0.00 1000000/1000000     test::Student::gpa() const [31]
+                0.00    0.00 1000000/1000000     google::protobuf::internal::WireFormatLite::EncodeFloat(float) [29]
+                0.00    0.00 1000000/1000000     google::protobuf::io::CodedOutputStream::WriteLittleEndian32ToArray(unsigned int, unsigned char*) [27]
+                0.00    0.00 1000000/2000000     test::Student::has_advisor() const [17]
+                0.00    0.00 1000000/2000000     google::protobuf::UnknownFieldSet::empty() const [24]
+                0.00    0.00 1000000/2000000     test::Student::unknown_fields() const [18]
+-----------------------------------------------
+                                                 <spontaneous>
+[3]     33.3    0.01    0.00                 test::Student::ByteSize() const [3]
+                0.00    0.00 2000000/2000000     google::protobuf::internal::WireFormatLite::StringSize(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [16]
+                0.00    0.00 1000000/2000000     test::Student::has_name() const [22]
+                0.00    0.00 1000000/4000000     test::Student::name[abi:cxx11]() const [12]
+                0.00    0.00 1000000/2000000     test::Student::has_id() const [20]
+                0.00    0.00 1000000/2000000     test::Student::id() const [19]
+                0.00    0.00 1000000/1000000     google::protobuf::internal::WireFormatLite::Int32Size(int) [30]
+                0.00    0.00 1000000/2000000     test::Student::has_phone() const [23]
+                0.00    0.00 1000000/4000000     test::Student::phone[abi:cxx11]() const [13]
+                0.00    0.00 1000000/2000000     test::Student::has_gpa() const [21]
+                0.00    0.00 1000000/2000000     test::Student::has_advisor() const [17]
+                0.00    0.00 1000000/2000000     test::Student::unknown_fields() const [18]
+                0.00    0.00 1000000/2000000     google::protobuf::UnknownFieldSet::empty() const [24]
+-----------------------------------------------
+                0.00    0.00 4000000/4000000     test::Student::SerializeWithCachedSizesToArray(unsigned char*) const [2]
+[11]     0.0    0.00    0.00 4000000         google::protobuf::internal::WireFormatLite::MakeTag(int, google::protobuf::internal::WireFormatLite::WireType) [11]
+-----------------------------------------------
+                0.00    0.00 1000000/4000000     test::Student::ByteSize() const [3]
+                0.00    0.00 3000000/4000000     test::Student::SerializeWithCachedSizesToArray(unsigned char*) const [2]
+[12]     0.0    0.00    0.00 4000000         test::Student::name[abi:cxx11]() const [12]
+-----------------------------------------------
+                0.00    0.00 1000000/4000000     test::Student::ByteSize() const [3]
+                0.00    0.00 3000000/4000000     test::Student::SerializeWithCachedSizesToArray(unsigned char*) const [2]
+[13]     0.0    0.00    0.00 4000000         test::Student::phone[abi:cxx11]() const [13]
+-----------------------------------------------
+                0.00    0.00 1000000/3000000     google::protobuf::io::CodedOutputStream::VarintSize32SignExtended(int) [26]
+                0.00    0.00 2000000/3000000     google::protobuf::internal::WireFormatLite::StringSize(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [16]
+[14]     0.0    0.00    0.00 3000000         google::protobuf::io::CodedOutputStream::VarintSize32(unsigned int) [14]
+-----------------------------------------------
+                0.00    0.00 2000000/2000000     test::Student::SerializeWithCachedSizesToArray(unsigned char*) const [2]
+[15]     0.0    0.00    0.00 2000000         google::protobuf::internal::WireFormat::VerifyUTF8StringNamedField(char const*, int, google::protobuf::internal::WireFormat::Operation, char const*) [15]
+-----------------------------------------------
+                0.00    0.00 2000000/2000000     test::Student::ByteSize() const [3]
+[16]     0.0    0.00    0.00 2000000         google::protobuf::internal::WireFormatLite::StringSize(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [16]
+                0.00    0.00 2000000/3000000     google::protobuf::io::CodedOutputStream::VarintSize32(unsigned int) [14]
+-----------------------------------------------
+                0.00    0.00 1000000/2000000     test::Student::SerializeWithCachedSizesToArray(unsigned char*) const [2]
+                0.00    0.00 1000000/2000000     test::Student::ByteSize() const [3]
+[17]     0.0    0.00    0.00 2000000         test::Student::has_advisor() const [17]
+-----------------------------------------------
+                0.00    0.00 1000000/2000000     test::Student::SerializeWithCachedSizesToArray(unsigned char*) const [2]
+                0.00    0.00 1000000/2000000     test::Student::ByteSize() const [3]
+[18]     0.0    0.00    0.00 2000000         test::Student::unknown_fields() const [18]
+-----------------------------------------------
+                0.00    0.00 1000000/2000000     test::Student::SerializeWithCachedSizesToArray(unsigned char*) const [2]
+                0.00    0.00 1000000/2000000     test::Student::ByteSize() const [3]
+[19]     0.0    0.00    0.00 2000000         test::Student::id() const [19]
+-----------------------------------------------
+                0.00    0.00 1000000/2000000     test::Student::SerializeWithCachedSizesToArray(unsigned char*) const [2]
+                0.00    0.00 1000000/2000000     test::Student::ByteSize() const [3]
+[20]     0.0    0.00    0.00 2000000         test::Student::has_id() const [20]
+-----------------------------------------------
+                0.00    0.00 1000000/2000000     test::Student::SerializeWithCachedSizesToArray(unsigned char*) const [2]
+                0.00    0.00 1000000/2000000     test::Student::ByteSize() const [3]
+[21]     0.0    0.00    0.00 2000000         test::Student::has_gpa() const [21]
+-----------------------------------------------
+                0.00    0.00 1000000/2000000     test::Student::SerializeWithCachedSizesToArray(unsigned char*) const [2]
+                0.00    0.00 1000000/2000000     test::Student::ByteSize() const [3]
+[22]     0.0    0.00    0.00 2000000         test::Student::has_name() const [22]
+-----------------------------------------------
+                0.00    0.00 1000000/2000000     test::Student::SerializeWithCachedSizesToArray(unsigned char*) const [2]
+                0.00    0.00 1000000/2000000     test::Student::ByteSize() const [3]
+[23]     0.0    0.00    0.00 2000000         test::Student::has_phone() const [23]
+-----------------------------------------------
+                0.00    0.00 1000000/2000000     test::Student::SerializeWithCachedSizesToArray(unsigned char*) const [2]
+                0.00    0.00 1000000/2000000     test::Student::ByteSize() const [3]
+[24]     0.0    0.00    0.00 2000000         google::protobuf::UnknownFieldSet::empty() const [24]
+-----------------------------------------------
+                0.00    0.00 1000000/1000000     google::protobuf::io::CodedOutputStream::WriteVarint32SignExtendedToArray(int, unsigned char*) [28]
+[25]     0.0    0.00    0.00 1000000         google::protobuf::io::CodedOutputStream::WriteVarint32ToArray(unsigned int, unsigned char*) [25]
+-----------------------------------------------
+                0.00    0.00 1000000/1000000     google::protobuf::internal::WireFormatLite::Int32Size(int) [30]
+[26]     0.0    0.00    0.00 1000000         google::protobuf::io::CodedOutputStream::VarintSize32SignExtended(int) [26]
+                0.00    0.00 1000000/3000000     google::protobuf::io::CodedOutputStream::VarintSize32(unsigned int) [14]
+-----------------------------------------------
+                0.00    0.00 1000000/1000000     test::Student::SerializeWithCachedSizesToArray(unsigned char*) const [2]
+[27]     0.0    0.00    0.00 1000000         google::protobuf::io::CodedOutputStream::WriteLittleEndian32ToArray(unsigned int, unsigned char*) [27]
+-----------------------------------------------
+                0.00    0.00 1000000/1000000     test::Student::SerializeWithCachedSizesToArray(unsigned char*) const [2]
+[28]     0.0    0.00    0.00 1000000         google::protobuf::io::CodedOutputStream::WriteVarint32SignExtendedToArray(int, unsigned char*) [28]
+                0.00    0.00 1000000/1000000     google::protobuf::io::CodedOutputStream::WriteVarint32ToArray(unsigned int, unsigned char*) [25]
+-----------------------------------------------
+                0.00    0.00 1000000/1000000     test::Student::SerializeWithCachedSizesToArray(unsigned char*) const [2]
+[29]     0.0    0.00    0.00 1000000         google::protobuf::internal::WireFormatLite::EncodeFloat(float) [29]
+-----------------------------------------------
+                0.00    0.00 1000000/1000000     test::Student::ByteSize() const [3]
+[30]     0.0    0.00    0.00 1000000         google::protobuf::internal::WireFormatLite::Int32Size(int) [30]
+                0.00    0.00 1000000/1000000     google::protobuf::io::CodedOutputStream::VarintSize32SignExtended(int) [26]
+-----------------------------------------------
+                0.00    0.00 1000000/1000000     test::Student::SerializeWithCachedSizesToArray(unsigned char*) const [2]
+[31]     0.0    0.00    0.00 1000000         test::Student::gpa() const [31]
+-----------------------------------------------
+                0.00    0.00       1/35008       test::Student_Advisor::SharedCtor() [56]
+                0.00    0.00       1/35008       test::Student_Advisor::SharedDtor() [57]
+                0.00    0.00    5000/35008       test::Student::set_name(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [49]
+                0.00    0.00    5000/35008       test::Student::set_phone(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [50]
+                0.00    0.00    5002/35008       google::protobuf::internal::GetEmptyString[abi:cxx11]() [37]
+                0.00    0.00   10002/35008       test::Student::SharedCtor() [38]
+                0.00    0.00   10002/35008       test::Student::SharedDtor() [39]
+[32]     0.0    0.00    0.00   35008         google::protobuf::internal::GetEmptyStringAlreadyInited[abi:cxx11]() [32]
+-----------------------------------------------
+                0.00    0.00    5002/5002        google::protobuf::Message::Message() [35]
+[33]     0.0    0.00    0.00    5002         google::protobuf::MessageLite::MessageLite() [33]
+-----------------------------------------------
+                0.00    0.00    5002/5002        google::protobuf::internal::GetEmptyString[abi:cxx11]() [37]
+[34]     0.0    0.00    0.00    5002         google::protobuf::GoogleOnceInit(long*, void (*)()) [34]
+                0.00    0.00    5002/5002        google::protobuf::internal::Acquire_Load(long const volatile*) [36]
+-----------------------------------------------
+                0.00    0.00       1/5002        test::Student_Advisor::Student_Advisor() [60]
+                0.00    0.00    5001/5002        test::Student::Student() [40]
+[35]     0.0    0.00    0.00    5002         google::protobuf::Message::Message() [35]
+                0.00    0.00    5002/5002        google::protobuf::MessageLite::MessageLite() [33]
+-----------------------------------------------
+                0.00    0.00    5002/5002        google::protobuf::GoogleOnceInit(long*, void (*)()) [34]
+[36]     0.0    0.00    0.00    5002         google::protobuf::internal::Acquire_Load(long const volatile*) [36]
+-----------------------------------------------
+                0.00    0.00       1/5002        test::Student_Advisor::SharedCtor() [56]
+                0.00    0.00    5001/5002        test::Student::SharedCtor() [38]
+[37]     0.0    0.00    0.00    5002         google::protobuf::internal::GetEmptyString[abi:cxx11]() [37]
+                0.00    0.00    5002/35008       google::protobuf::internal::GetEmptyStringAlreadyInited[abi:cxx11]() [32]
+                0.00    0.00    5002/5002        google::protobuf::GoogleOnceInit(long*, void (*)()) [34]
+-----------------------------------------------
+                0.00    0.00    5001/5001        test::Student::Student() [40]
+[38]     0.0    0.00    0.00    5001         test::Student::SharedCtor() [38]
+                0.00    0.00   10002/35008       google::protobuf::internal::GetEmptyStringAlreadyInited[abi:cxx11]() [32]
+                0.00    0.00    5001/5002        google::protobuf::internal::GetEmptyString[abi:cxx11]() [37]
+-----------------------------------------------
+                0.00    0.00    5001/5001        test::Student::~Student() [41]
+[39]     0.0    0.00    0.00    5001         test::Student::SharedDtor() [39]
+                0.00    0.00   10002/35008       google::protobuf::internal::GetEmptyStringAlreadyInited[abi:cxx11]() [32]
+-----------------------------------------------
+                0.00    0.00       1/5001        test::protobuf_AddDesc_student_2eproto() [63]
+                0.00    0.00    5000/5001        main [9]
+[40]     0.0    0.00    0.00    5001         test::Student::Student() [40]
+                0.00    0.00    5001/5002        google::protobuf::Message::Message() [35]
+                0.00    0.00    5001/5001        test::Student::SharedCtor() [38]
+-----------------------------------------------
+                0.00    0.00       1/5001        test::Student::~Student() [66]
+                0.00    0.00    5000/5001        main [9]
+[41]     0.0    0.00    0.00    5001         test::Student::~Student() [41]
+                0.00    0.00    5001/5001        test::Student::SharedDtor() [39]
+-----------------------------------------------
+                0.00    0.00    5000/5000        main [9]
+[42]     0.0    0.00    0.00    5000         PromptForStudent(test::Student*, std::basic_fstream<char, std::char_traits<char> >&) [42]
+                0.00    0.00    5000/5000        test::Student::set_id(int) [47]
+                0.00    0.00    5000/5000        test::Student::set_name(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [49]
+                0.00    0.00    5000/5000        test::Student::set_phone(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [50]
+                0.00    0.00    5000/5000        test::Student::set_gpa(float) [48]
+-----------------------------------------------
+                0.00    0.00    5000/5000        test::Student::set_id(int) [47]
+[43]     0.0    0.00    0.00    5000         test::Student::set_has_id() [43]
+-----------------------------------------------
+                0.00    0.00    5000/5000        test::Student::set_gpa(float) [48]
+[44]     0.0    0.00    0.00    5000         test::Student::set_has_gpa() [44]
+-----------------------------------------------
+                0.00    0.00    5000/5000        test::Student::set_name(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [49]
+[45]     0.0    0.00    0.00    5000         test::Student::set_has_name() [45]
+-----------------------------------------------
+                0.00    0.00    5000/5000        test::Student::set_phone(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [50]
+[46]     0.0    0.00    0.00    5000         test::Student::set_has_phone() [46]
+-----------------------------------------------
+                0.00    0.00    5000/5000        PromptForStudent(test::Student*, std::basic_fstream<char, std::char_traits<char> >&) [42]
+[47]     0.0    0.00    0.00    5000         test::Student::set_id(int) [47]
+                0.00    0.00    5000/5000        test::Student::set_has_id() [43]
+-----------------------------------------------
+                0.00    0.00    5000/5000        PromptForStudent(test::Student*, std::basic_fstream<char, std::char_traits<char> >&) [42]
+[48]     0.0    0.00    0.00    5000         test::Student::set_gpa(float) [48]
+                0.00    0.00    5000/5000        test::Student::set_has_gpa() [44]
+-----------------------------------------------
+                0.00    0.00    5000/5000        PromptForStudent(test::Student*, std::basic_fstream<char, std::char_traits<char> >&) [42]
+[49]     0.0    0.00    0.00    5000         test::Student::set_name(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [49]
+                0.00    0.00    5000/5000        test::Student::set_has_name() [45]
+                0.00    0.00    5000/35008       google::protobuf::internal::GetEmptyStringAlreadyInited[abi:cxx11]() [32]
+-----------------------------------------------
+                0.00    0.00    5000/5000        PromptForStudent(test::Student*, std::basic_fstream<char, std::char_traits<char> >&) [42]
+[50]     0.0    0.00    0.00    5000         test::Student::set_phone(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [50]
+                0.00    0.00    5000/5000        test::Student::set_has_phone() [46]
+                0.00    0.00    5000/35008       google::protobuf::internal::GetEmptyStringAlreadyInited[abi:cxx11]() [32]
+-----------------------------------------------
+                0.00    0.00       2/2           main [9]
+[51]     0.0    0.00    0.00       2         std::operator|(std::_Ios_Openmode, std::_Ios_Openmode) [51]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [163]
+[52]     0.0    0.00    0.00       1         _GLOBAL__sub_I__Z16PromptForStudentPN4test7StudentERSt13basic_fstreamIcSt11char_traitsIcEE [52]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [54]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [163]
+[53]     0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN4test35protobuf_AssignDesc_student_2eprotoEv [53]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [55]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__Z16PromptForStudentPN4test7StudentERSt13basic_fstreamIcSt11char_traitsIcEE [52]
+[54]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [54]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN4test35protobuf_AssignDesc_student_2eprotoEv [53]
+[55]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [55]
+                0.00    0.00       1/1           test::StaticDescriptorInitializer_student_2eproto::StaticDescriptorInitializer_student_2eproto() [64]
+-----------------------------------------------
+                0.00    0.00       1/1           test::Student_Advisor::Student_Advisor() [60]
+[56]     0.0    0.00    0.00       1         test::Student_Advisor::SharedCtor() [56]
+                0.00    0.00       1/5002        google::protobuf::internal::GetEmptyString[abi:cxx11]() [37]
+                0.00    0.00       1/35008       google::protobuf::internal::GetEmptyStringAlreadyInited[abi:cxx11]() [32]
+-----------------------------------------------
+                0.00    0.00       1/1           test::Student_Advisor::~Student_Advisor() [62]
+[57]     0.0    0.00    0.00       1         test::Student_Advisor::SharedDtor() [57]
+                0.00    0.00       1/35008       google::protobuf::internal::GetEmptyStringAlreadyInited[abi:cxx11]() [32]
+-----------------------------------------------
+                0.00    0.00       1/1           test::Student::InitAsDefaultInstance() [65]
+[58]     0.0    0.00    0.00       1         test::Student_Advisor::default_instance() [58]
+-----------------------------------------------
+                0.00    0.00       1/1           test::protobuf_AddDesc_student_2eproto() [63]
+[59]     0.0    0.00    0.00       1         test::Student_Advisor::InitAsDefaultInstance() [59]
+-----------------------------------------------
+                0.00    0.00       1/1           test::protobuf_AddDesc_student_2eproto() [63]
+[60]     0.0    0.00    0.00       1         test::Student_Advisor::Student_Advisor() [60]
+                0.00    0.00       1/5002        google::protobuf::Message::Message() [35]
+                0.00    0.00       1/1           test::Student_Advisor::SharedCtor() [56]
+-----------------------------------------------
+                0.00    0.00       1/1           test::protobuf_ShutdownFile_student_2eproto() [86]
+[61]     0.0    0.00    0.00       1         test::Student_Advisor::~Student_Advisor() [61]
+                0.00    0.00       1/1           test::Student_Advisor::~Student_Advisor() [62]
+-----------------------------------------------
+                0.00    0.00       1/1           test::Student_Advisor::~Student_Advisor() [61]
+[62]     0.0    0.00    0.00       1         test::Student_Advisor::~Student_Advisor() [62]
+                0.00    0.00       1/1           test::Student_Advisor::SharedDtor() [57]
+-----------------------------------------------
+                0.00    0.00       1/1           test::StaticDescriptorInitializer_student_2eproto::StaticDescriptorInitializer_student_2eproto() [64]
+[63]     0.0    0.00    0.00       1         test::protobuf_AddDesc_student_2eproto() [63]
+                0.00    0.00       1/5001        test::Student::Student() [40]
+                0.00    0.00       1/1           test::Student_Advisor::Student_Advisor() [60]
+                0.00    0.00       1/1           test::Student::InitAsDefaultInstance() [65]
+                0.00    0.00       1/1           test::Student_Advisor::InitAsDefaultInstance() [59]
+-----------------------------------------------
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [55]
+[64]     0.0    0.00    0.00       1         test::StaticDescriptorInitializer_student_2eproto::StaticDescriptorInitializer_student_2eproto() [64]
+                0.00    0.00       1/1           test::protobuf_AddDesc_student_2eproto() [63]
+-----------------------------------------------
+                0.00    0.00       1/1           test::protobuf_AddDesc_student_2eproto() [63]
+[65]     0.0    0.00    0.00       1         test::Student::InitAsDefaultInstance() [65]
+                0.00    0.00       1/1           test::Student_Advisor::default_instance() [58]
+-----------------------------------------------
+                0.00    0.00       1/1           test::protobuf_ShutdownFile_student_2eproto() [86]
+[66]     0.0    0.00    0.00       1         test::Student::~Student() [66]
+                0.00    0.00       1/5001        test::Student::~Student() [41]
+-----------------------------------------------
+                0.00    0.00       1/1           main [9]
+[67]     0.0    0.00    0.00       1         _call_coz_get_counter [67]
+-----------------------------------------------
+
+Index by function name
+
+  [52] _GLOBAL__sub_I__Z16PromptForStudentPN4test7StudentERSt13basic_fstreamIcSt11char_traitsIcEE (test_student.cc) [46] test::Student::set_has_phone() [16] google::protobuf::internal::WireFormatLite::StringSize(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  [53] _GLOBAL__sub_I__ZN4test35protobuf_AssignDesc_student_2eprotoEv (student.pb.cc) [65] test::Student::InitAsDefaultInstance() [29] google::protobuf::internal::WireFormatLite::EncodeFloat(float)
+  [42] PromptForStudent(test::Student*, std::basic_fstream<char, std::char_traits<char> >&) [47] test::Student::set_id(int) [11] google::protobuf::internal::WireFormatLite::MakeTag(int, google::protobuf::internal::WireFormatLite::WireType)
+  [54] __static_initialization_and_destruction_0(int, int) (test_student.cc) [48] test::Student::set_gpa(float) [30] google::protobuf::internal::WireFormatLite::Int32Size(int)
+  [55] __static_initialization_and_destruction_0(int, int) (student.pb.cc) [49] test::Student::set_name(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [32] google::protobuf::internal::GetEmptyStringAlreadyInited[abi:cxx11]()
+  [56] test::Student_Advisor::SharedCtor() [50] test::Student::set_phone(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [17] test::Student::has_advisor() const
+  [57] test::Student_Advisor::SharedDtor() [40] test::Student::Student() [18] test::Student::unknown_fields() const
+  [58] test::Student_Advisor::default_instance() [66] test::Student::~Student() [19] test::Student::id() const
+  [59] test::Student_Advisor::InitAsDefaultInstance() [41] test::Student::~Student() [2] test::Student::SerializeWithCachedSizesToArray(unsigned char*) const
+  [60] test::Student_Advisor::Student_Advisor() [33] google::protobuf::MessageLite::MessageLite() [31] test::Student::gpa() const
+  [61] test::Student_Advisor::~Student_Advisor() [34] google::protobuf::GoogleOnceInit(long*, void (*)()) [12] test::Student::name[abi:cxx11]() const
+  [62] test::Student_Advisor::~Student_Advisor() [14] google::protobuf::io::CodedOutputStream::VarintSize32(unsigned int) [13] test::Student::phone[abi:cxx11]() const
+  [63] test::protobuf_AddDesc_student_2eproto() [25] google::protobuf::io::CodedOutputStream::WriteVarint32ToArray(unsigned int, unsigned char*) [20] test::Student::has_id() const
+  [64] test::StaticDescriptorInitializer_student_2eproto::StaticDescriptorInitializer_student_2eproto() [26] google::protobuf::io::CodedOutputStream::VarintSize32SignExtended(int) [21] test::Student::has_gpa() const
+  [38] test::Student::SharedCtor() [27] google::protobuf::io::CodedOutputStream::WriteLittleEndian32ToArray(unsigned int, unsigned char*) [3] test::Student::ByteSize() const
+  [39] test::Student::SharedDtor() [28] google::protobuf::io::CodedOutputStream::WriteVarint32SignExtendedToArray(int, unsigned char*) [22] test::Student::has_name() const
+  [43] test::Student::set_has_id() [35] google::protobuf::Message::Message() [23] test::Student::has_phone() const
+  [44] test::Student::set_has_gpa() [15] google::protobuf::internal::WireFormat::VerifyUTF8StringNamedField(char const*, int, google::protobuf::internal::WireFormat::Operation, char const*) [24] google::protobuf::UnknownFieldSet::empty() const
+  [45] test::Student::set_has_name() [36] google::protobuf::internal::Acquire_Load(long const volatile*) [51] std::operator|(std::_Ios_Openmode, std::_Ios_Openmode)
+   [1] test::Student::mutable_phone[abi:cxx11]() [37] google::protobuf::internal::GetEmptyString[abi:cxx11]() [67] _call_coz_get_counter (coz.h)

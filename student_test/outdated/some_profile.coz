@@ -1,0 +1,118 @@
+startup	time=1447538621854672373
+runtime	time=10146961
+startup	time=1447538724705839213
+runtime	time=10069933
+startup	time=1447540330558229474
+runtime	time=10063023
+startup	time=1447606886766733867
+runtime	time=10099345
+startup	time=1447607200834998617
+runtime	time=10115353
+startup	time=1447607419137993498
+runtime	time=10152971
+startup	time=1447607490353545506
+runtime	time=20206384
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:458	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:698	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:455	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/test_student.cc:109	count=2
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/test_student.cc:115	count=1
+samples	location=/usr/local/include/google/protobuf/io/coded_stream.h:1017	count=1
+samples	location=/usr/local/include/google/protobuf/io/coded_stream.h:1039	count=1
+samples	location=/usr/local/include/google/protobuf/unknown_field_set.h:231	count=1
+samples	location=/usr/local/include/google/protobuf/wire_format_lite.h:568	count=2
+startup	time=1447607594975409642
+experiment	selected=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:556	speedup=0.45	duration=500161929	selected-samples=0
+throughput-point	name=test_student.cc:115	delta=893506
+runtime	time=520368395
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:458	count=7
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:683	count=3
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:714	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:718	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:724	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:732	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:733	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:735	count=6
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:744	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:758	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:147	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:379	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:454	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:455	count=5
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:470	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:478	count=2
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:554	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:555	count=3
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:556	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:569	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:578	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:579	count=2
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/test_student.cc:109	count=7
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/test_student.cc:111	count=1
+samples	location=/usr/local/include/google/protobuf/io/coded_stream.h:1030	count=1
+samples	location=/usr/local/include/google/protobuf/io/coded_stream.h:1034	count=1
+samples	location=/usr/local/include/google/protobuf/io/coded_stream.h:1039	count=1
+samples	location=/usr/local/include/google/protobuf/io/coded_stream.h:1075	count=1
+samples	location=/usr/local/include/google/protobuf/io/coded_stream.h:1076	count=1
+samples	location=/usr/local/include/google/protobuf/io/coded_stream.h:1077	count=1
+samples	location=/usr/local/include/google/protobuf/io/coded_stream.h:1096	count=2
+samples	location=/usr/local/include/google/protobuf/unknown_field_set.h:230	count=2
+samples	location=/usr/local/include/google/protobuf/unknown_field_set.h:231	count=2
+samples	location=/usr/local/include/google/protobuf/unknown_field_set.h:232	count=1
+samples	location=/usr/local/include/google/protobuf/wire_format_lite.h:568	count=3
+samples	location=/usr/local/include/google/protobuf/wire_format_lite.h:569	count=1
+samples	location=/usr/local/include/google/protobuf/wire_format_lite.h:591	count=1
+samples	location=/usr/local/include/google/protobuf/wire_format_lite.h:594	count=1
+samples	location=/usr/local/include/google/protobuf/wire_format_lite.h:595	count=2
+samples	location=/usr/local/include/google/protobuf/wire_format_lite_inl.h:588	count=2
+samples	location=/usr/local/include/google/protobuf/wire_format_lite_inl.h:594	count=6
+samples	location=/usr/local/include/google/protobuf/wire_format_lite_inl.h:639	count=1
+samples	location=/usr/local/include/google/protobuf/wire_format_lite_inl.h:640	count=1
+samples	location=/usr/local/include/google/protobuf/wire_format_lite_inl.h:800	count=1
+startup	time=1447607815194230674
+experiment	selected=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:379	speedup=0.20	duration=499889010	selected-samples=1
+throughput-point	name=test_student.cc:115	delta=901987
+runtime	time=520277484
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:458	count=11
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:683	count=2
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:698	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:714	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:724	count=3
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:733	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:735	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:746	count=2
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:751	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:763	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:770	count=2
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.cc:776	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:148	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:378	count=2
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:379	count=2
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:380	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:455	count=3
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:469	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:479	count=5
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:554	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:555	count=2
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:556	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:570	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/student.pb.h:579	count=1
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/test_student.cc:109	count=3
+samples	location=/home/xiaoweiw/Fall15/microarchitecture/tools/protobuf-2.6.1/student_test/test_student.cc:115	count=1
+samples	location=/usr/local/include/google/protobuf/io/coded_stream.h:1028	count=1
+samples	location=/usr/local/include/google/protobuf/io/coded_stream.h:1037	count=1
+samples	location=/usr/local/include/google/protobuf/io/coded_stream.h:1039	count=2
+samples	location=/usr/local/include/google/protobuf/io/coded_stream.h:1075	count=3
+samples	location=/usr/local/include/google/protobuf/io/coded_stream.h:1076	count=1
+samples	location=/usr/local/include/google/protobuf/io/coded_stream.h:1077	count=1
+samples	location=/usr/local/include/google/protobuf/io/coded_stream.h:1096	count=3
+samples	location=/usr/local/include/google/protobuf/unknown_field_set.h:231	count=3
+samples	location=/usr/local/include/google/protobuf/wire_format_lite.h:568	count=4
+samples	location=/usr/local/include/google/protobuf/wire_format_lite.h:591	count=1
+samples	location=/usr/local/include/google/protobuf/wire_format_lite.h:593	count=2
+samples	location=/usr/local/include/google/protobuf/wire_format_lite.h:594	count=1
+samples	location=/usr/local/include/google/protobuf/wire_format_lite.h:595	count=2
+samples	location=/usr/local/include/google/protobuf/wire_format_lite_inl.h:588	count=1
+samples	location=/usr/local/include/google/protobuf/wire_format_lite_inl.h:594	count=5
+samples	location=/usr/local/include/google/protobuf/wire_format_lite_inl.h:639	count=1
+samples	location=/usr/local/include/google/protobuf/wire_format_lite_inl.h:640	count=1
