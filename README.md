@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Protocol Buffers - Google's data interchange format
 ===================================================
 
@@ -165,3 +166,6 @@ The complete documentation for Protocol Buffers is available via the
 web at:
 
     https://developers.google.com/protocol-buffers/
+=======
+# micro_architecture
+>>>>>>> 0bbc05eed2455cd41bc8b41e7d12f5dd4ad45053
